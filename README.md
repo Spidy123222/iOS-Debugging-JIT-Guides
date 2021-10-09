@@ -8,7 +8,7 @@ This Page has List of Guides for Debugging and doing JIT on iOS/iPadOS 13+ but s
 
 **Q: Why would i need to use these?**
 
-A: You would use these tutorials to debug on the go (Likely would like to keep logs somewhere) or use JIT for emulators or other things without being fully tethered to a computer on a developer liscenced app.
+A: You would use these tutorials to debug on the go (Likely would need to keep logs somewhere) or use JIT for emulators or other things without being fully tethered to a computer on a developer liscenced app.
 
 **Q: What is JIT?**
 
