@@ -14,7 +14,7 @@ A: You would use these tutorials to debug on the go (Likely would need to keep l
 
 A: Having JIT is Required for most emulators and programs that use it because it recompiles the game or software in real-time for faster emulation. This can be useful for doing write and execution and reading for emulating a game or doing things in web-browsers like in safari.
 
-**Q: What About Earlier Versions OF iOS/iPadOS that has native JIT support. Why doesnt current bersjons have it?**
+**Q: What About Earlier Versions OF iOS/iPadOS that has native JIT support. Why doesnt current versions have it?**
 
 A: iOS/iPadOS versions 14.4 and above are naturally incompatible with Non-Jailbroken versions of iOS/iPadOS due to the removal of Bugs to be able to debug an app for Just-in-time compilation (JIT) which programs like DolphiniOS and UTM uses. These apps can use these tutorial/programs below to do it on devices iOS/iPadOS 14.4 and above.
 
