@@ -25,17 +25,21 @@ A: iOS/iPadOS versions 14.4 and above are naturally incompatible with Non-Jailbr
 
 _Link:_ [https://github.com/jkcoxson/DiOS-Instructions](https://github.com/jkcoxson/DiOS-Instructions)
 
-This tutorial is written with using libimobiledevice which is a program to interface with iOS based Devices. It includes debugging/Enabling Jit for apps and All of the tutorials below uses LibiMobileDevice. This is considered the more compatible method if trying to activate jit or debug an app without mac or windows or just want to do it via a computer. This can be implimented with a SSH shortcut to the computer to activate remotely inside your network to actiavte JIT/debug (if computer is on). This method can be implimented very well into servers and portable devices.
+This tutorial is written with using libimobiledevice which is a program to interface with iOS based Devices. It includes debugging/Enabling Jit for apps and All of the tutorials below uses LibiMobileDevice. 
+
+This is considered the more compatible method if trying to activate jit or debug an app without mac or windows or just want to do it via a computer.This can be implimented with a SSH shortcut to the computer to activate remotely inside your network to actiavte JIT/debug (if computer is on). This method can be implimented very well into servers and portable devices.
 
 
 **2. JitterBug by osy**
 
 _Link:_ [https://github.com/osy/Jitterbug](https://github.com/osy/Jitterbug)
 
-Jitterbug is a iOS/iPad app that can debug/enable JIT via apple devices. There are few methods being jitterbug lite allowing to activate JIT with a second device to debug the main device for JIT. The second one just called jitterbug which REQUIRES Paid Apple Developer account to use which creates a vpn to route to the device your on to activate on you're device. you can use a testflight version but it is unclear if it will always be up and running. all of this info is applyable to JitterBug-Tutorial on the list number 2.
+Jitterbug is a iOS/iPad app that can debug/enable JIT via apple devices. There are few methods being jitterbug lite allowing to activate JIT with a second device to debug the main device for JIT. 
+
+The second one just called jitterbug which REQUIRES Paid Apple Developer account to use which creates a vpn to route to the device your on to activate on you're device. you can use a testflight version but it is unclear if it will always be up and running. all of this info is applyable to JitterBug-Tutorial on the list number 2.
 
 
-**3. JitterBug-Tutorial by Spidy123222 and Mangus_Redd**
+**3. JitterBug-Tutorial (unfinished) by Spidy123222 and Mangus_Redd**
 
 _Link:_ [https://spidy123222.github.io/Jitterbug-tutorial](https://spidy123222.github.io/Jitterbug-tutorial)
 
@@ -46,4 +50,6 @@ This is a written tutorial for jitterbug to make it easier than the orignial wit
 
 _Link:_ [https://github.com/rileytestut/AltStore](https://spidy123222.github.io/Jitterbug-tutorial)
 
-This method uses Altstore and is meant to be mostly automatic via AltJIT but not all apps might impliment or support it so most of what yuo need to do is install it install altstore to device. If an app doesnt use AltJIT; you can activate via altstore app by long pressing on app and enable JIT or select altstore and go to enable JIT and select device and then app.
+This method uses Altstore (computer required to use) and is meant to be mostly automatic via AltJIT but not all apps might impliment or support it so most of what you need to do is install it install altstore to device.
+
+If an app doesnt use AltJIT; you can activate via altstore app by long pressing on app and enable JIT or select altstore and go to enable JIT and select device and then app.
