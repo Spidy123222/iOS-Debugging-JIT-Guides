@@ -1,6 +1,6 @@
 By: Spidy123222
-# Welcome to the List of Guides for Debugging/JIT on iOS 13+
-This Page has List of Guides for Debugging and doing jit on ios 13+ but some of this can work in lower versions with less convinence by having to be tethered to a compter during the whole time so it is recommended to use these on iOS 13 and above.
+# Welcome to the List of Guides for Debugging/JIT on iOS/iPadOS 13+
+This Page has List of Guides for Debugging and doing JIT on iOS/iPadOS 13+ but some of this can work in lower versions with less convinence by having to be tethered to a compter during the whole time so it is recommended to use these on iOS 13 and above.
 
 ## FAQ
 
