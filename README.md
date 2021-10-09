@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+By: Spidy123222
+# Welcome to the List of Guides for Debugging/JIT on iOS 13+
+This Page has List of Guides for Debugging and doing jit on ios 13+ but some of this can work in lower versions with less convinence by having to be tethered to a compter during the whole time so it is recommended to use these on iOS 13 and above.
 
-You can use the [editor on GitHub](https://github.com/Spidy123222/iOS-Debugging-JIT-Guides/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## FAQ
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**Q: Why would i need to use these?**
+A: You would use these tutorials to debug on the go (Likely would like to keep logs somewhere) or use JIT for emulators or other things without being fully tethered to a computer on a developer liscenced app.
 
-### Markdown
+**Q: What is JIT?**
+A: Having JIT is Required for most emulators and programs that use it because it recompiles the game or software in real-time for faster emulation. This can be useful for doing write and execution and reading for emulating a game or doing things in web-browsers like in safari.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+## List
 
-# Header 1
-## Header 2
-### Header 3
+1. Jit Workaround by Spidy123222 and Jkcoxson
+Link: https://github.com/jkcoxson/DiOS-Instructions
+This tutorial is written with using libimobiledevice which is a program to interface with iOS based Devices. It includes debugging/Enabling Jit for apps and All of the tutorials below uses libimobiledevice. This is considered the more compatible method if trying to activate jit or debug an app without mac or windows or just want to do it via a computer. This can be implimented with a SSH shortcut to the computer to activate remotely inside your network to actiavte jit/debug (if computer is on). This method can be implimented very well into servers and portable devices.
 
-- Bulleted
-- List
+2. JitterBug by osy
+Link: https://github.com/osy/Jitterbug
+Jitterbug is a iOS/iPad app that can debug/enable jit via apple devices. There are few methods being jitterbug lite allowing to activate jit with a second device to debug the main device for jit. The second one just called jitterbug which REQUIRES Paid Apple Developer account to use which creates a vpn to route to the device your on to activate on you're device. you can use a testflight version but it is unclear if it will always be up and running. all of this info is applyable to JitterBug-Tutorial on the list number 2.
 
-1. Numbered
-2. List
+3. JitterBug-Tutorial by Spidy123222 and Mangus_Redd
+Link: https://spidy123222.github.io/Jitterbug-tutorial
+This is a written tutorial for jitterbug to make it easier than the orignial without messing up the original instructions and making it easy to understand.
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Spidy123222/iOS-Debugging-JIT-Guides/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+4. Altstore by Riley Testut (In Patreon Beta or Build program youself)
+Link: https://github.com/rileytestut/AltStore
+This method uses Altstore and is meant to be mostly automatic via AltJit but not all apps might impliment or support it so most of what yuo need to do is install it install altstore to device. If an app doesnt use AltJit; you can activate via altstore app by long pressing on app and enable jit or select altstore and go to enable jit and select device and then app.
