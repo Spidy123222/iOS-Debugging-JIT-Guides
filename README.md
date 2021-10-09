@@ -18,7 +18,7 @@ A: Having JIT is Required for most emulators and programs that use it because it
 
 A: iOS/iPadOS versions 14.4 and above are naturally incompatible with Non-Jailbroken versions of iOS/iPadOS due to the removal of Bugs to be able to debug an app for Just-in-time compilation (JIT) which programs like DolphiniOS and UTM uses. These apps can use these tutorial/programs below to do it on devices iOS/iPadOS 14.4 and above.
 
-**Q: What Tricks were used back then to do jit and what are their restrictions and why was it removed.?
+**Q: What Tricks were used back then to do jit and what are their restrictions and why was it removed?**
 
 A: A few tricks were used and it wass removed all because it was bugs that could lead to security problems.
 
