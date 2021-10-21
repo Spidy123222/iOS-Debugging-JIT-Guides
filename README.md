@@ -36,7 +36,7 @@ While not long after, a method was found to be able to enable a debugger for JIT
 
 **1. JIT Workaround by Spidy123222 and Jkcoxson**
 
-_Link:_ [https://github.com/jkcoxson/DiOS-Instructions](https://github.com/jkcoxson/DiOS-Instructions)
+_Link:_ [https://jkcoxson.github.io/DiOS-Instructions/](https://jkcoxson.github.io/DiOS-Instructions/)
 
 This tutorial is written using libimobiledevice which is a program to interface with iOS based Devices. This includes debugging/Enabling Jit for apps, also all of the tutorials below uses libimobiledevice which this program is supported on windows, debian linux (x86 and Arm64), macOS 
 
