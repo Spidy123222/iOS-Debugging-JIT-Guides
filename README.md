@@ -4,7 +4,7 @@ This page has a list of guides for debugging and activating JIT on iOS/iPadOS 13
 
 *Note: Some of these methods can work on lower versions with less convenience by having to be tethered to a compter during the whole time, so it is recommended to use these on iOS 13 and above.*
 
-**NOTICE: Currently All Below tutorials use a computer of some sort!**
+**NOTICE: Currently All Below tutorials use a computer of some sort! However there is a few that only need a pair file and that's all rest is no computer**
 
 ## FAQ
 
@@ -36,7 +36,15 @@ Not long after, a method was found to enable a debugger for JIT on any iOS/iPadO
 
 ## List
 
-**1. JIT Workaround by Spidy123222 and jkcoxson**
+**1. JitStreamer by jkcoxson and Spidy123222
+
+[_Link_](http://jitstreamer.com/)
+
+This tutorial is written using a port of jitshipper which is a automation of rusty_libimobiledevice.
+JitShipper works by using a pairFile you get from the jitExtractor and you connect via a vpn and grab the shortcut and pair via the shortcut and activate jit on apps listed. This requires no app other than zerotier one on the App Store for the vpn connection.
+
+
+**2. JIT Workaround by Spidy123222 and jkcoxson**
 
 [_Link_](https://jkcoxson.github.io/DiOS-Instructions/)
 
@@ -47,20 +55,13 @@ This tutorial is written using libimobiledevice which is a program to interface 
 This is considered to be a more compatible method of trying to activate JIT or debug, as it is well supported across many OS's. This can be implemented with an SSH shortcut to the computer to activate debugging remotely inside your network to activate JIT/debug (if computer is on). This method can be implimented easily to servers and portable devices.
 
 
-**2. JitterBug by osy**
+**3. JitterBug by osy**
 
 [_Link_](https://github.com/osy/Jitterbug)
 
 Jitterbug is an iOS/iPad app that can debug/enable JIT via other Apple devices. There are a few methods, one being Jitterbug lite which allows a second iOS device to activate JIT on the first.
 
 The second one which is just called Jitterbug **REQUIRES a paid Apple Developer account** to use. It creates a VPN to route debugging packets in a loopback from the iOS device to itself. Alternatively, you can use an Apple Testflight version but it is unclear if it will always be up and running. All of this info is applicable to JitterBug-Tutorial on the list number 3.
-
-
-**3. JitterBug-Tutorial (unfinished) by Spidy123222 and Mangus_Redd**
-
-[_Link_](https://spidy123222.github.io/Jitterbug-tutorial)
-
-This is a written tutorial for Jitterbug to make it more easy to understand than the original instructions from osy.
 
 
 **4. Altstore by Riley Testut (In Patreon Beta or Build program youself)**
