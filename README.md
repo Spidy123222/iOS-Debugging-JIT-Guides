@@ -4,7 +4,7 @@ This page has a list of guides for debugging and activating JIT on iOS/iPadOS 13
 
 *Note: Some of these methods can work on lower versions with less convenience by having to be tethered to a compter during the whole time, so it is recommended to use these on iOS 13 and above.*
 
-**NOTICE: Currently All Below tutorials use a computer of some sort! However there is a few that only need a pair file and that's all rest is no computer**
+**NOTICE: Currently All Below tutorials use a computer of some sort! However there is a few that only need a pair file and that's all rest of it is no computer.**
 
 ## FAQ
 
