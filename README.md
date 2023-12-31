@@ -32,7 +32,7 @@ For a brief moment on iOS/iPadOS 14.2-14.3 there was a bug to enable a debugger 
 
 Not long after, a method was found to enable a debugger for JIT on any iOS/iPadOS 13+. This birthed AltJIT by Riley Testut, JIT workaround by jkcoxson and Spidy123222, and Conath on Discord telling how to use detach on Xcode's debuger whilst keeping JIT capability. This allowed to have JIT on these versions with only problem being that if the program that has debug priviledges was put in the background it would lose the JIT capabilities. You would then have to activate again when you want to use a program with JIT or a debugger.
 
-Q: Does iOS/iPadOS 17 still work with jit apps?
+**Q: Does iOS/iPadOS 17 still work with jit apps?**
 
 A: It does work but apple has changed how debugging works on iOS/iPadOS 17 making libraries like pymobiledevice3 to need to research how to debug on other platforms than macos. So that makes it harder to access jit for all the stuff that its used for.
 
